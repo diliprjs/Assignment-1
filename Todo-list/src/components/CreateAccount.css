@@ -1,0 +1,79 @@
+/* CreateAccount.css */
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+  background-color: #fffcfc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-account section {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: rgb(69, 202, 243);
+}
+
+.create-account h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.create-account form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-account .input-container {
+  margin-bottom: 20px;
+ 
+}
+
+.create-account label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.create-account input[type="text"],
+.create-account input[type="email"],
+.create-account input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.create-account button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.create-account button:hover {
+  background-color: #45a049;
+}
+
+.create-account p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.create-account p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.create-account p a:hover {
+  text-decoration: underline;
+}

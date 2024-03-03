@@ -1,0 +1,139 @@
+/* TodoList.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fffcfc;
+}
+
+.todo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(69, 202, 243);
+}
+
+.todo-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:not(:last-child) {
+  margin-right: 10px; 
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-container span {
+  flex: 1;
+}
+
+.task-container button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-container button:not(:last-child) {
+  margin-right: 5px; 
+}
+
+.task-container button.edit-btn {
+  background-color: #ff9800; 
+  color: #fff;
+}
+
+.task-container button.edit-btn:hover {
+  background-color: #e68a00; 
+}
+
+.task-container button.delete-btn {
+  background-color: #f44336; 
+  color: #fff;
+}
+
+.task-container button.delete-btn:hover {
+  background-color: #e53935; 
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.edit-container button:hover {
+  background-color: #1e87dc; 
+}
+
